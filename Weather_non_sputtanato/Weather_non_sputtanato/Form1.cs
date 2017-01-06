@@ -16,9 +16,12 @@ namespace Weather_non_sputtanato
 {
     public partial class Form1 : Form
     {
+        Logger logger = new Logger();
         internal Cities.NewDataSet cn;
         public Form1()
         {
+            logger.nuovo("Weather_non_sputtanato");
+
             InitializeComponent();
             BasicHttpBinding binding = new BasicHttpBinding();
             binding.MaxReceivedMessageSize = 20000000;
@@ -40,6 +43,61 @@ namespace Weather_non_sputtanato
             comboBoxCountries.Items.AddRange(Countries.ToArray());
         }
 
+        private void comboBoxCountries_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var rr = cn.Table.Where(m => m.Country == comboBoxCountries.Text).Select(c => c.City);
+
+            comboBoxCities.Items.Clear();
+            comboBoxCities.Items.AddRange(rr.ToArray());
+        }
+
+        private void comboBoxCities_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            BasicHttpBinding binding = new BasicHttpBinding();
+            EndpointAddress address = new EndpointAddress("http://www.webservicex.com/globalweather.asmx");
+            GlobalWeatherSoapClient gwsc = new GlobalWeatherSoapClient(binding, address);
+
+            logger.log(comboBoxCountries.Text);
+            logger.log(comboBoxCities.Text);
+          
+            //var weather = gwsc.GetWeather(comboBoxCities.Text, comboBoxCountries.Text);
+            var weather = gwsc.GetWeather(comboBoxCountries.Text, comboBoxCities.Text);
+
+            logger.log(weather);
+            logger.log("proviamo a mano '" + gwsc.GetWeather("Canada", "Key/ Lake") + "'");
+
+            if (weather != "Data Not Found")
+            {
+                richTextBox1.Clear();
+
+                //XmlSerializer result = new XmlSerializer(typeof(CurrentWeather));
+                //var w = (CurrentWeather)result.Deserialize(new StringReader(weather));
+
+                //for (int i = 0; w.ItemsElementName.Length; i++)
+                //{
+                //    richTextBox1.Text += w.ItemElementName[i] + ": " + w.Item[i] + "\r\n";
+                //}
+            }
+            else
+            {
+                richTextBox1.Clear();
+                richTextBox1.Text = "Data Not Found!";
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxCountries_FormatStringChanged(object sender, EventArgs e)
+        {
+            //var rr = cn.Table.Where(m => m.Country == comboBoxCountries.Text).Select(c => c.City);
+
+            //comboBoxCountries.Items.Clear();
+            //comboBoxCountries.Items.AddRange(rr.ToArray());
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -50,43 +108,5 @@ namespace Weather_non_sputtanato
 
         }
 
-        private void comboBoxCountries_FormatStringChanged(object sender, EventArgs e)
-        {
-            var rr = cn.Table.Where(m => m.Country == comboBoxCountries.Text).Select(c => c.City);
-
-            comboBoxCountries.Items.Clear();
-            comboBoxCountries.Items.AddRange(rr.ToArray()); 
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBoxCities_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            BasicHttpBinding binding = new BasicHttpBinding();
-            EndpointAddress address = new EndpointAddress("http://www.webservicex.com/globalweather.asmx");
-            GlobalWeatherSoapClient gwsc = new GlobalWeatherSoapClient(binding, address);
-
-            var weather = new gwsc.GetaWeather(comboboxCity.Text, comboboxCountry.Text);
-
-            if (weather != "Data Not Found")
-            {
-                richTextBox1.Clear();
-                XmlSerializer result = new XmlSerializer(typeof(CurrentWeather));
-                var w = (CurrentWeather)result.Deserialize(new StringReader(weather));
-
-                for (int i = 0; w.ItemsElementName.Length; i++)
-                {
-                    richTextBox1.Text += w.ItemElementName[i] + ": " + w.Item[i] + "\r\n";
-                }
-            }
-            else
-            {
-                richTextBox1.Clear();
-                richTextBox1.Text = "Data Not Found!";
-            }
-        }
     }
 }

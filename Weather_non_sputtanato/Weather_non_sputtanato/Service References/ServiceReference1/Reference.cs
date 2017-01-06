@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+
 namespace Weather_non_sputtanato.ServiceReference1 {
     
     
@@ -71,6 +73,11 @@ namespace Weather_non_sputtanato.ServiceReference1 {
         
         public System.Threading.Tasks.Task<string> GetCitiesByCountryAsync(string CountryName) {
             return base.Channel.GetCitiesByCountryAsync(CountryName);
+        }
+
+        internal object GetaWeather(object text1, object text2)
+        {
+            throw new NotImplementedException();
         }
     }
 }

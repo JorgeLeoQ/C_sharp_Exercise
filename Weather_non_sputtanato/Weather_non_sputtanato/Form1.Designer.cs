@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBoxCountries = new System.Windows.Forms.ComboBox();
-            this.comboBoxCities = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBoxCities = new System.Windows.Forms.ComboBox();
+            this.comboBoxCountries = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -52,34 +52,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // groupBox2
+            // label2
             // 
-            this.groupBox2.Controls.Add(this.richTextBox1);
-            this.groupBox2.Location = new System.Drawing.Point(0, 115);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(282, 151);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
-            // 
-            // comboBoxCountries
-            // 
-            this.comboBoxCountries.FormattingEnabled = true;
-            this.comboBoxCountries.Location = new System.Drawing.Point(113, 19);
-            this.comboBoxCountries.Name = "comboBoxCountries";
-            this.comboBoxCountries.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxCountries.TabIndex = 0;
-            this.comboBoxCountries.SelectedIndexChanged += new System.EventHandler(this.comboBoxCounties_SelectedIndexChanged);
-            this.comboBoxCountries.FormatStringChanged += new System.EventHandler(this.comboBoxCountries_FormatStringChanged);
-            // 
-            // comboBoxCities
-            // 
-            this.comboBoxCities.FormattingEnabled = true;
-            this.comboBoxCities.Location = new System.Drawing.Point(113, 61);
-            this.comboBoxCities.Name = "comboBoxCities";
-            this.comboBoxCities.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxCities.TabIndex = 1;
-            this.comboBoxCities.SelectedIndexChanged += new System.EventHandler(this.comboBoxCities_SelectedIndexChanged);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(46, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(32, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Cities";
             // 
             // label1
             // 
@@ -91,14 +71,34 @@
             this.label1.Text = "Countries";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // comboBoxCities
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Cities";
+            this.comboBoxCities.FormattingEnabled = true;
+            this.comboBoxCities.Location = new System.Drawing.Point(113, 61);
+            this.comboBoxCities.Name = "comboBoxCities";
+            this.comboBoxCities.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxCities.TabIndex = 1;
+            this.comboBoxCities.SelectedIndexChanged += new System.EventHandler(this.comboBoxCities_SelectedIndexChanged);
+            // 
+            // comboBoxCountries
+            // 
+            this.comboBoxCountries.FormattingEnabled = true;
+            this.comboBoxCountries.Location = new System.Drawing.Point(113, 19);
+            this.comboBoxCountries.Name = "comboBoxCountries";
+            this.comboBoxCountries.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxCountries.TabIndex = 0;
+            this.comboBoxCountries.SelectedIndexChanged += new System.EventHandler(this.comboBoxCountries_SelectedIndexChanged);
+            this.comboBoxCountries.FormatStringChanged += new System.EventHandler(this.comboBoxCountries_FormatStringChanged);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.richTextBox1);
+            this.groupBox2.Location = new System.Drawing.Point(0, 115);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(282, 151);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
             // 
             // richTextBox1
             // 

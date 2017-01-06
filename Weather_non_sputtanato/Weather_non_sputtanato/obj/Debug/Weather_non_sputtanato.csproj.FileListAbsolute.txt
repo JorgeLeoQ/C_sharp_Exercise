@@ -7,3 +7,12 @@ c:\users\garci\documents\visual studio 2015\Projects\Weather_non_sputtanato\Weat
 c:\users\garci\documents\visual studio 2015\Projects\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.csproj.GenerateResource.Cache
 c:\users\garci\documents\visual studio 2015\Projects\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.exe
 c:\users\garci\documents\visual studio 2015\Projects\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.pdb
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\bin\Debug\Weather_non_sputtanato.exe.config
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.exe
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.pdb
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.csprojResolveAssemblyReference.cache
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.Form1.resources
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.Properties.Resources.resources
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\obj\Debug\Weather_non_sputtanato.csproj.GenerateResource.Cache
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\bin\Debug\Weather_non_sputtanato.exe
+C:\Users\garci\Documents\Visual Studio 2015\Projects\LoniLove\Weather_non_sputtanato\Weather_non_sputtanato\bin\Debug\Weather_non_sputtanato.pdb

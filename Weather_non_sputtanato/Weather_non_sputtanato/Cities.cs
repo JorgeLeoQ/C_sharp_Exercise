@@ -8,7 +8,6 @@ namespace Weather_non_sputtanato
 {
     public class Cities
     {
-
         /// <remarks/>
         [System.SerializableAttribute()]
         [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16,7 +15,6 @@ namespace Weather_non_sputtanato
         [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
         public partial class NewDataSet
         {
-
             private NewDataSetTable[] tableField;
 
             /// <remarks/>
