@@ -11,7 +11,7 @@ namespace compito_quimi_weather_con_client_simulato
     {
         public void init()
         {
-            using (StreamWriter w = File.AppendText("C:\\Users\\garci\\Documents\\logWeather.txt"))
+            using (StreamWriter w = File.AppendText("C:\\LoniLove\\logWeather.txt"))
             {
                 w.Write("***********************************************************");
                 w.WriteLine();
@@ -23,7 +23,7 @@ namespace compito_quimi_weather_con_client_simulato
         }
         public void log(string logMessage)
         {
-            using (StreamWriter w = File.AppendText("C:\\Users\\garci\\Documents\\logWeather.txt"))
+            using (StreamWriter w = File.AppendText("C:\\LoniLove\\logWeather.txt"))
             {
                 w.Write("{0} {1}", DateTime.Now.ToLongDateString(), DateTime.Now.ToLongTimeString());
                 w.Write("  :{0}", logMessage);

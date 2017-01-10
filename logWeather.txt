@@ -1,0 +1,52 @@
+***********************************************************
+domenica 8 gennaio 2017 23.44.50  :***** WEATHER COMPITO QUIMIZZZZZZZZZZZ ****************************************************************
+***********************************************************
+domenica 8 gennaio 2017 23.45.37  :***** WEATHER COMPITO QUIMIZZZZZZZZZZZ ****************************************************************
+domenica 8 gennaio 2017 23.45.37  :INIZIAMOOOO
+domenica 8 gennaio 2017 23.45.37  :Dentro form elemento da mettere nella comboboxcountriues: Canada
+domenica 8 gennaio 2017 23.45.37  :Dentro form elemento da mettere nella comboboxcountriues: Italy
+domenica 8 gennaio 2017 23.45.37  :merdaccia: Toronto
+domenica 8 gennaio 2017 23.45.45  :Dentro comboBoxCountries_SelectedIndexChanged country selezionato : Canada
+domenica 8 gennaio 2017 23.45.45  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Toronto
+domenica 8 gennaio 2017 23.45.45  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : kentuky
+domenica 8 gennaio 2017 23.45.45  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Cane
+domenica 8 gennaio 2017 23.45.50  :Dentro comboBoxCountries_SelectedIndexChanged country selezionato : Canada
+domenica 8 gennaio 2017 23.45.50  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Toronto
+domenica 8 gennaio 2017 23.45.50  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : kentuky
+domenica 8 gennaio 2017 23.45.50  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Cane
+domenica 8 gennaio 2017 23.46.32  :Dentro comboBoxCountries_SelectedIndexChanged country selezionato : Italy
+domenica 8 gennaio 2017 23.46.32  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Genova
+domenica 8 gennaio 2017 23.46.32  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Napoli
+domenica 8 gennaio 2017 23.46.32  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Sicilia
+domenica 8 gennaio 2017 23.46.35  :comboBoxCities_SelectedIndexChanged Scriviamo in richTextBoxWeatherInformation
+domenica 8 gennaio 2017 23.46.35  :comboBoxCities_SelectedIndexChanged: weather information in Country: Italy
+domenica 8 gennaio 2017 23.46.35  :comboBoxCities_SelectedIndexChanged: in City: Genova
+domenica 8 gennaio 2017 23.46.35  :comboBoxCities_SelectedIndexChanged: Temperatures: 3 °
+domenica 8 gennaio 2017 23.46.35  :comboBoxCities_SelectedIndexChanged: Humidity: 46 %
+domenica 8 gennaio 2017 23.46.35  :comboBoxCities_SelectedIndexChanged: Pressure: 14 Pressure
+domenica 8 gennaio 2017 23.46.35  :comboBoxCities_SelectedIndexChanged: Wind: 4 KM
+domenica 8 gennaio 2017 23.46.46  :comboBoxCities_SelectedIndexChanged Scriviamo in richTextBoxWeatherInformation
+domenica 8 gennaio 2017 23.46.46  :comboBoxCities_SelectedIndexChanged: weather information in Country: Italy
+domenica 8 gennaio 2017 23.46.46  :comboBoxCities_SelectedIndexChanged: in City: Napoli
+domenica 8 gennaio 2017 23.46.46  :comboBoxCities_SelectedIndexChanged: Temperatures: 3 °
+domenica 8 gennaio 2017 23.46.46  :comboBoxCities_SelectedIndexChanged: Humidity: 46 %
+domenica 8 gennaio 2017 23.46.46  :comboBoxCities_SelectedIndexChanged: Pressure: 14 Pressure
+domenica 8 gennaio 2017 23.46.46  :comboBoxCities_SelectedIndexChanged: Wind: 4 KM
+domenica 8 gennaio 2017 23.46.51  :comboBoxCities_SelectedIndexChanged Scriviamo in richTextBoxWeatherInformation
+domenica 8 gennaio 2017 23.46.51  :comboBoxCities_SelectedIndexChanged: weather information in Country: Italy
+domenica 8 gennaio 2017 23.46.51  :comboBoxCities_SelectedIndexChanged: in City: Sicilia
+domenica 8 gennaio 2017 23.46.51  :comboBoxCities_SelectedIndexChanged: Temperatures: 3 °
+domenica 8 gennaio 2017 23.46.51  :comboBoxCities_SelectedIndexChanged: Humidity: 46 %
+domenica 8 gennaio 2017 23.46.51  :comboBoxCities_SelectedIndexChanged: Pressure: 14 Pressure
+domenica 8 gennaio 2017 23.46.51  :comboBoxCities_SelectedIndexChanged: Wind: 4 KM
+domenica 8 gennaio 2017 23.47.04  :Dentro comboBoxCountries_SelectedIndexChanged country selezionato : Canada
+domenica 8 gennaio 2017 23.47.04  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Toronto
+domenica 8 gennaio 2017 23.47.04  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : kentuky
+domenica 8 gennaio 2017 23.47.04  :Dentro comboBoxCountries_SelectedIndexChanged city dentro forech : Cane
+domenica 8 gennaio 2017 23.47.06  :comboBoxCities_SelectedIndexChanged Scriviamo in richTextBoxWeatherInformation
+domenica 8 gennaio 2017 23.47.06  :comboBoxCities_SelectedIndexChanged: weather information in Country: Canada
+domenica 8 gennaio 2017 23.47.06  :comboBoxCities_SelectedIndexChanged: in City: Toronto
+domenica 8 gennaio 2017 23.47.06  :comboBoxCities_SelectedIndexChanged: Temperatures: 3 °
+domenica 8 gennaio 2017 23.47.06  :comboBoxCities_SelectedIndexChanged: Humidity: 46 %
+domenica 8 gennaio 2017 23.47.06  :comboBoxCities_SelectedIndexChanged: Pressure: 14 Pressure
+domenica 8 gennaio 2017 23.47.06  :comboBoxCities_SelectedIndexChanged: Wind: 4 KM
