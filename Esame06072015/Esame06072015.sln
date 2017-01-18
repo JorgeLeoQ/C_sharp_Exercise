@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esame06072015", "Esame06072015\Esame06072015.csproj", "{90C12959-47D5-4D8C-A22F-1142719505DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMuseo", "TestMuseo\TestMuseo.csproj", "{8607513C-7C23-4E8B-9E44-2015669E5169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C12959-47D5-4D8C-A22F-1142719505DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C12959-47D5-4D8C-A22F-1142719505DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C12959-47D5-4D8C-A22F-1142719505DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C12959-47D5-4D8C-A22F-1142719505DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8607513C-7C23-4E8B-9E44-2015669E5169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8607513C-7C23-4E8B-9E44-2015669E5169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8607513C-7C23-4E8B-9E44-2015669E5169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8607513C-7C23-4E8B-9E44-2015669E5169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
